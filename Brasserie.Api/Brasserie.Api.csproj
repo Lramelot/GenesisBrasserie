@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Brasserie.Core\Brasserie.Core.csproj" />
+    <ProjectReference Include="..\Brasserie.Data\Brasserie.Data.csproj" />
+    <ProjectReference Include="..\Brasserie.Service\Brasserie.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>
